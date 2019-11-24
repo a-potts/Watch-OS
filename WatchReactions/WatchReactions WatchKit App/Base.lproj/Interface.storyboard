@@ -9,7 +9,22 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchReactions_WatchKit_App" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="0.5" alignment="left" id="eHa-Ab-Grl">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" title="Button" id="3i3-nR-W3G"/>
+                                <button width="0.5" height="1" alignment="left" title="Button" id="3U3-gf-cdf"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.5" alignment="left" id="njF-yz-AhB">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" title="Button" id="1WJ-aC-lZF"/>
+                                <button width="0.5" height="1" alignment="left" title="Button" id="d7v-Yc-pts"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="159" y="140"/>
         </scene>
