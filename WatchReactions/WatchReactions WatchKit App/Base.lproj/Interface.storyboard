@@ -13,14 +13,34 @@
                     <items>
                         <group width="1" height="0.5" alignment="left" id="eHa-Ab-Grl">
                             <items>
-                                <button width="0.5" height="1" alignment="left" title="Button" id="3i3-nR-W3G"/>
-                                <button width="0.5" height="1" alignment="left" title="Button" id="3U3-gf-cdf"/>
+                                <button width="0.5" height="1" alignment="left" title="1" id="3i3-nR-W3G">
+                                    <fontDescription key="font" type="system" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound1" destination="AgC-eL-Hgc" id="HAD-lm-SFN"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" title="2" id="3U3-gf-cdf">
+                                    <fontDescription key="font" type="system" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound2" destination="AgC-eL-Hgc" id="UH8-jH-Fhv"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" height="0.5" alignment="left" id="njF-yz-AhB">
                             <items>
-                                <button width="0.5" height="1" alignment="left" title="Button" id="1WJ-aC-lZF"/>
-                                <button width="0.5" height="1" alignment="left" title="Button" id="d7v-Yc-pts"/>
+                                <button width="0.5" height="1" alignment="left" title="3" id="1WJ-aC-lZF">
+                                    <fontDescription key="font" type="system" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound3" destination="AgC-eL-Hgc" id="gXE-bg-plN"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" title="4" id="d7v-Yc-pts">
+                                    <fontDescription key="font" type="system" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound4" destination="AgC-eL-Hgc" id="KdL-MT-6aV"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>

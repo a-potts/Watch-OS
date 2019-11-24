@@ -20,6 +20,7 @@
 		454CB0AB238AF3C500937E4C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454CB0AA238AF3C500937E4C /* InterfaceController.swift */; };
 		454CB0AD238AF3C500937E4C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454CB0AC238AF3C500937E4C /* ExtensionDelegate.swift */; };
 		454CB0AF238AF3C500937E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454CB0AE238AF3C500937E4C /* Assets.xcassets */; };
+		454CB0BF238AF79000937E4C /* SoundProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454CB0BE238AF79000937E4C /* SoundProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		454CB0AC238AF3C500937E4C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		454CB0AE238AF3C500937E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454CB0B0238AF3C500937E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454CB0BE238AF79000937E4C /* SoundProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				454CB0AA238AF3C500937E4C /* InterfaceController.swift */,
+				454CB0BE238AF79000937E4C /* SoundProtocol.swift */,
 				454CB0AC238AF3C500937E4C /* ExtensionDelegate.swift */,
 				454CB0AE238AF3C500937E4C /* Assets.xcassets */,
 				454CB0B0238AF3C500937E4C /* Info.plist */,
@@ -301,6 +304,7 @@
 			files = (
 				454CB0AD238AF3C500937E4C /* ExtensionDelegate.swift in Sources */,
 				454CB0AB238AF3C500937E4C /* InterfaceController.swift in Sources */,
+				454CB0BF238AF79000937E4C /* SoundProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
