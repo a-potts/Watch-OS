@@ -7,12 +7,15 @@
 //
 
 import WatchKit
-import Foundation
+import AVFoundation
 
 
 class CustomInterfaceController: WKInterfaceController {
 
-  
+    let saveURL = FileManager.default.getDocumentsDirectory().appendingPathComponent("recording.wav")
+    
+    var audioPlayer: AVAudioPlayer?
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
@@ -31,10 +34,22 @@ class CustomInterfaceController: WKInterfaceController {
 
     
     @IBAction func recordTapped() {
+        presentAudioRecorderController(withOutputURL: saveURL, preset: .narrowBandSpeech) { (success, error) in
+            if success {
+                print("Saved")
+             } else {
+                print(error?.localizedDescription ?? "Unknown Audio")
+            }
+        }
     }
     
     
     @IBAction func playTapped() {
+        
+        guard FileManager.default.fileExists(atPath: saveURL.path) else {return}
+        try? audioPlayer = AVAudioPlayer(contentsOf: saveURL)
+        audioPlayer?.play()
+        
     }
     
 }
