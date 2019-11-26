@@ -44,9 +44,39 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <segue destination="Ped-CY-aoF" kind="relationship" relationship="nextPage" id="9Kg-Hp-xhy"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="159" y="140"/>
+        </scene>
+        <!--Table Interface Controller-->
+        <scene sceneID="fea-MF-Lxf">
+            <objects>
+                <controller id="Ped-CY-aoF" customClass="TableInterfaceController" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="KbY-mY-P9C">
+                            <items>
+                                <tableRow identifier="Row" id="fwX-NX-68Z" customClass="SoundRow" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" alignment="left" id="ccn-fx-CGb">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="nG1-Vq-0C3"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="nG1-Vq-0C3" id="Ctl-Ce-lae"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="KbY-mY-P9C" id="7wC-yO-3h2"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="410" y="132"/>
         </scene>
     </scenes>
 </document>

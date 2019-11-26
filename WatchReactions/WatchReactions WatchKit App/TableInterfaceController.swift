@@ -12,10 +12,22 @@ import Foundation
 
 class TableInterfaceController: WKInterfaceController {
 
+    @IBOutlet weak var table: WKInterfaceTable!
+    
+    let sounds = Bundle.main.urls(forResourcesWithExtension: "mp3", subdirectory: nil)?.map { $0.deletingPathExtension().lastPathComponent }.sorted() ?? []
+    
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        // Configure interface objects here.
+        table.setNumberOfRows(sounds.count, withRowType: "Row")
+        
+        for (index, sound) in sounds.enumerated() {
+            guard let row = table.rowController(at: index) as? SoundRow else {continue}
+            row.label.setText(sound)
+        }
+        
+        
     }
 
     override func willActivate() {
