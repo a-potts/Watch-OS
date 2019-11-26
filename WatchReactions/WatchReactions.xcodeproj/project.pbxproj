@@ -27,6 +27,8 @@
 		454CB0CB238B61F600937E4C /* 9_mm_gunshot-mike-koenig-123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 454CB0CA238B61F600937E4C /* 9_mm_gunshot-mike-koenig-123.mp3 */; };
 		454CB0CD238B633E00937E4C /* Sniper_Rifle-Kibblesbob-2053709564.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 454CB0CC238B633E00937E4C /* Sniper_Rifle-Kibblesbob-2053709564.mp3 */; };
 		454CB0D1238B642800937E4C /* UMP45_Heckler_Koch-Gunner-2133293655.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 454CB0D0238B642800937E4C /* UMP45_Heckler_Koch-Gunner-2133293655.mp3 */; };
+		454CB0D3238D80CF00937E4C /* CustomInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454CB0D2238D80CF00937E4C /* CustomInterfaceController.swift */; };
+		454CB0D5238D825E00937E4C /* FileManager-Documentsdirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454CB0D4238D825E00937E4C /* FileManager-Documentsdirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		454CB0CA238B61F600937E4C /* 9_mm_gunshot-mike-koenig-123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "9_mm_gunshot-mike-koenig-123.mp3"; sourceTree = "<group>"; };
 		454CB0CC238B633E00937E4C /* Sniper_Rifle-Kibblesbob-2053709564.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sniper_Rifle-Kibblesbob-2053709564.mp3"; sourceTree = "<group>"; };
 		454CB0D0238B642800937E4C /* UMP45_Heckler_Koch-Gunner-2133293655.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "UMP45_Heckler_Koch-Gunner-2133293655.mp3"; sourceTree = "<group>"; };
+		454CB0D2238D80CF00937E4C /* CustomInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInterfaceController.swift; sourceTree = "<group>"; };
+		454CB0D4238D825E00937E4C /* FileManager-Documentsdirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-Documentsdirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				454CB0C6238B0C7100937E4C /* TableInterfaceController.swift */,
+				454CB0D2238D80CF00937E4C /* CustomInterfaceController.swift */,
+				454CB0D4238D825E00937E4C /* FileManager-Documentsdirectory.swift */,
 				454CB0C8238B614B00937E4C /* SoundRow.swift */,
 				454CB0AA238AF3C500937E4C /* InterfaceController.swift */,
 				454CB0BE238AF79000937E4C /* SoundProtocol.swift */,
@@ -333,9 +339,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				454CB0AD238AF3C500937E4C /* ExtensionDelegate.swift in Sources */,
+				454CB0D5238D825E00937E4C /* FileManager-Documentsdirectory.swift in Sources */,
 				454CB0C9238B614B00937E4C /* SoundRow.swift in Sources */,
 				454CB0AB238AF3C500937E4C /* InterfaceController.swift in Sources */,
 				454CB0C7238B0C7100937E4C /* TableInterfaceController.swift in Sources */,
+				454CB0D3238D80CF00937E4C /* CustomInterfaceController.swift in Sources */,
 				454CB0BF238AF79000937E4C /* SoundProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
