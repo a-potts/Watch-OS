@@ -1,5 +1,5 @@
 //
-//  InterfaceController.swift
+//  TableInterfaceController.swift
 //  WatchReactions WatchKit Extension
 //
 //  Created by Austin Potts on 11/24/19.
@@ -8,47 +8,24 @@
 
 import WatchKit
 import Foundation
-import AVFoundation
 
 
-class InterfaceController: WKInterfaceController, SoundPlaying {
-    
-    var audioPlayer: AVAudioPlayer?
+class TableInterfaceController: WKInterfaceController {
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
         // Configure interface objects here.
     }
-    
+
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
     }
-    
+
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-    
 
-    @IBAction func playSound1() {
-        playSound(named: "alien-spaceship_daniel_simion")
-    }
-    
-    
-    @IBAction func playSound2() {
-        playSound(named: "9_mm_gunshot-mike-koenig-123")
-    }
-    
-    
-    @IBAction func playSound3() {
-        playSound(named: "Sniper_Rifle-Kibblesbob-2053709564")
-    }
-    
-    
-    @IBAction func playSound4() {
-        playSound(named: "UMP45_Heckler_Koch-Gunner-2133293655")
-    }
-    
 }
